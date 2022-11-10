@@ -19,14 +19,14 @@ body{
     "cafe"
     "work"
     "activity";
-grid-gap: 5vh;
+    grid-gap: 5vh;
 
   }
 
 a:link, a:visited {
     font-size: 1em;
     text-decoration: none;
-    color: #75947e;
+    color: #4b6954;
   }
 
 .title{
@@ -38,11 +38,22 @@ a:link, a:visited {
   align-self: center;
   margin-bottom: 45vh;
   margin-top: 45vh;
+  z-index: 2;
+}
+
+.leaf{
+  grid-area: title;
+  justify-self: center;
+  align-self: center;
+  z-index: 0;
+  opacity: 70%;
+  width: 80vw;
 }
 
 .subtitle{
-  font-size: 1em;
-  color: #4b6954;
+  font-size: 1.5em;
+  color: #75947e;
+
 }
 
 h1{
@@ -53,8 +64,8 @@ h1{
 .header{
   justify-content: center;
   /* align-content: center; */
-  font-size: 2em;
-  color: #4b6954;
+  font-size: 2.4em;
+  color: #75947e;
 }
 
 h2{
@@ -105,6 +116,7 @@ h4{
 h5{
   grid-area: work;
   justify-self: center;
+    margin-bottom: 6vh;
 }
 
 .work>p{
@@ -116,6 +128,8 @@ h5{
 h6{
   grid-area: activity;
   justify-self: center;
+  margin-bottom: 6vh;
+  margin-top: 5vh;
 }
 
 .activity>p{
@@ -123,6 +137,37 @@ h6{
   font-size: 1em;
 }
 
+.line1{
+  grid-area: dessert;
+  align-self: start;
+  height: .3vh;
+  width: 90vw;
+  background-color:#4b6954;
+}
+
+.line2{
+  grid-area: cafe;
+  align-self: start;
+  height: .3vh;
+  width: 90vw;
+  background-color:#4b6954;
+}
+
+.line3{
+  grid-area: work;
+  align-self: start;
+  height: .3vh;
+  width: 90vw;
+  background-color:#4b6954;
+}
+
+.line4{
+  grid-area: activity;
+  align-self: start;
+  height: .3vh;
+  width: 90vw;
+  background-color:#4b6954;
+}
 
 
 

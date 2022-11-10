@@ -38,6 +38,7 @@ a:link, a:visited {
   align-self: center;
   margin-bottom: 45vh;
   margin-top: 45vh;
+  margin-left: 5vw;
   z-index: 2;
 }
 
@@ -48,6 +49,7 @@ a:link, a:visited {
   z-index: 0;
   opacity: 70%;
   width: 80vw;
+    margin-left: 5vw;
 }
 
 .subtitle{
